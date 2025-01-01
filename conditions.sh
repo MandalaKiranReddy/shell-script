@@ -1,11 +1,10 @@
 #!/bin/bash
+N1=$1
+N2=$2
 
-NUMBER1=$1
-NUMBER2=$2
-
-if[ $NUMBER1 -gt $NUMBER2 ]
+if [ $N1 -eq $N2 ]
 then
-   echo "NUMBER1 IS GREATER THAN NUMBER2"
+        echo "Both variables are the same"
 else
-   echo "NUMBER1 IS LESS THAN NUMBER2"
-fi      
+        echo "Both variables are different"
+fi
