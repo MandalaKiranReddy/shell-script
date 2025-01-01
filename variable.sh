@@ -9,3 +9,9 @@ echo "$PERSON1: how are you doing"
 echo "$PERSON2: I am find How about you"
 echo "$PERSON1: I am good. Thanks for asking"
 echo "$PERSON1 :: $PERSON2"
+
+echo "Please enter username:"
+
+read USERNAME
+
+echo "entered username is: $USERNAME"
