@@ -15,3 +15,15 @@ echo "Please enter username:"
 read USERNAME
 
 echo "entered username is: $USERNAME"
+
+echo "please enter user password"
+
+read -s PASSWORD
+
+echo "entered password is : $PASSWORD"
+
+
+
+
+
+
